@@ -8,4 +8,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="SimuladorCompuertrtas.Core/SimuladorCompuertrtas.Core.csproj" />
+  </ItemGroup>
+
 </Project>
