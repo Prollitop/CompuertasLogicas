@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="SimuladorCompuertrtas.csproj" />
+  <Project Path="SimuladorCompuertrtas.Core/SimuladorCompuertrtas.Core.csproj" />
+  <Project Path="SimuladorCompuertrtas.Core.Tests/SimuladorCompuertrtas.Core.Tests.csproj" />
 </Solution>
