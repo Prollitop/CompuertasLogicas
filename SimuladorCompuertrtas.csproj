@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="SimuladorCompuertrtas.Core/**/*.cs" />
+    <Compile Remove="SimuladorCompuertrtas.Core.Tests/**/*.cs" />
     <ProjectReference Include="SimuladorCompuertrtas.Core/SimuladorCompuertrtas.Core.csproj" />
   </ItemGroup>
 
