@@ -110,7 +110,7 @@ public partial class MainWindow : Window
 
     private Point ToCircuitPoint(Point point) => new(point.X / Editor.Zoom, point.Y / Editor.Zoom);
 
-    private CircuitComponentViewModel? FindComponent(DependencyObject? element)
+    private static CircuitComponentViewModel? FindComponent(DependencyObject? element)
     {
         while (element is not null)
         {
